@@ -1,0 +1,9 @@
+[Unit]
+Description=Facebook OOMD Service starter
+
+[Service]
+User=root
+ExecStart=/usr/local/bin/oomd_bin
+
+[Install]
+WantedBy=multi-user.target
